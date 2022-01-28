@@ -3,13 +3,11 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import AuthContext from "./AuthContext";
+// import AuthContext from "./AuthContext";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    {/* <AuthContext>
-    </AuthContext> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
